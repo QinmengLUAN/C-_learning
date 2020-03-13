@@ -12,7 +12,7 @@ int main(){
   } else if(age ==18){
     cout << "Show me your ID and then have a pint!" << endl;
   } else{
-    cout << "I'm calling the police." << endl;
+    cout << "I'm calling the x." << endl;
   }
   cout << "Goodbye" << endl;
 }
