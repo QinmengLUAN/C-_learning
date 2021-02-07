@@ -28,9 +28,9 @@ int main() {
     int n;
     cin >> n;
 
-    cout << a / 100 << endl;
-    cout << a % 100 / 10 << endl;
-    cout << a % 100 % 10 << endl;
-    
+    cout << (n / 100) << endl;
+    cout << (n % 100 / 10) << endl;
+    cout << (n % 100 % 10) << endl;
+
     return 0;
 }

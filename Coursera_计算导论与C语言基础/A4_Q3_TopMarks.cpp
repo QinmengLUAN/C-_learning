@@ -29,16 +29,16 @@ int main() {
     cin >> n;
 
     int grade[100];
+    int maxVal = 0;
+
     // grades of students
     for (int i = 0; i < n; i++) {
         cin >> grade[i];
-    }
 
-    int maxVal = 0;
-    for (int j = 1; j < n; j++) {
-        if (maxVal < grade[j])
-            maxVal = grade[j];
+        if (maxVal < grade[i])
+            maxVal = grade[i];
     }
+    
     cout << maxVal << endl;
     return 0;
 }
