@@ -33,6 +33,7 @@ using namespace std;
 int main() {
     char ch[102], temp[102];
     int i, j, tempn[102];
+    
     while (cin.getline(ch, 102)) {
         j = 0;
         for (i = 0; ch[i] != '\0'; i++) {
